@@ -1,0 +1,10 @@
+1) TestNG is better in terms of ease of use. (JUnit Maven Dependency, TestNG Maven Dependency)
+2) JUnit is better for injecting test methods input data	
+3) TestNG is better for test suites	
+4) TestNG HTML reports look outdated but it’s simple to use. If you have to share HTML reports with others, it's better to use JUnit
+5) JUnit is better if you want to skip tests based on conditions	
+6) TestNG is better when you want to execute tests in specific order.	
+7) JUnit is better when you want to disable or enable tests based on conditions	
+8) TestNG is better for parallel execution as of now, JUnit 5 development is going on to support this feature.	
+9) TestNG listener support is much better compared to JUnit 5.	
+10) TestNG supports dependency testing. This means in a set of test methods, if the initial test fails, then all subsequent dependent tests will be skipped, not marked as failed as in the case for JUnit
