@@ -1,0 +1,49 @@
+body {
+  background-color: #ffffe6;
+}
+img {
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 5px;
+	max-width: 50%;
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	filter: invert(100%)
+}
+
+p {
+	font-style: italic;
+	color:#990000;
+	font-size: 18;
+	padding: 30px
+}
+
+H1 {
+	font-size: 120%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333366; 
+	text-align: center;
+	border: 3px solid green;
+}
+
+table {
+	display: block;
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 13%;
+	text-align: left;
+	padding: 15px;
+	background-color:  #e6e6e6;
+}
+
+td {
+  height: 50px;
+  vertical-align: bottom;
+  padding: 15px;
+}
+
+tr:hover {background-color: #f5f5f5;}
+
+		
